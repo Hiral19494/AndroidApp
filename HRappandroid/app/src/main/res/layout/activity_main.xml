@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.hrappandroid.MainActivity">
+
+
+
+
+
+
+
+
+
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ne1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/sampleedittext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Name"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:padding="10dp"/>
+
+
+    <EditText
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:id="@+id/ae2"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Age"
+    android:layout_width="110dp"
+    android:inputType="number"
+        android:layout_below="@+id/ne1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/se3"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Salary"
+        android:layout_width="110dp"
+        android:inputType="number"
+        android:layout_below="@+id/ae2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/be4"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Bonus"
+        android:layout_width="110dp"
+        android:inputType="number"
+        android:layout_below="@+id/se3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/he5"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Hours"
+        android:layout_width="110dp"
+        android:inputType="number"
+        android:layout_below="@+id/be4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/re6"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Rate"
+        android:layout_width="110dp"
+        android:inputType="number"
+        android:layout_below="@+id/he5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/ce7"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter College Name"
+        android:layout_width="110dp"
+        android:inputType="text"
+        android:layout_below="@+id/re6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/pe8"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Plate Number"
+        android:layout_width="110dp"
+        android:inputType="text"
+        android:layout_below="@+id/ce7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/me9"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:background="@drawable/sampleedittext"
+        android:hint="Enter Make"
+        android:layout_width="110dp"
+        android:inputType="number"
+        android:layout_below="@+id/pe8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"/>
+
+    <Button
+    android:text="Update"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/sb2"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/ub3"
+        android:background="@drawable/samplebutton"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <Button
+    android:text="List"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ab1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="18dp"
+    android:id="@+id/lb4"
+        android:background="@drawable/samplebutton"/>
+
+    <Button
+    android:text="PayRoll"
+    android:layout_width="wrap_content"
+        android:background="@drawable/samplebutton"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/lb4"
+    android:layout_alignLeft="@+id/sb2"
+    android:layout_alignStart="@+id/sb2"
+    android:id="@+id/cb5" />
+
+    <Button
+    android:text="BirthYear"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:background="@drawable/samplebutton"
+    android:layout_alignTop="@+id/cb5"
+    android:layout_alignLeft="@+id/ub3"
+    android:layout_alignStart="@+id/ub3"
+    android:id="@+id/bb6" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/bb6"
+    android:layout_marginTop="12dp"
+    android:id="@+id/tt10"
+
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_dark"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+
+    <Button
+    android:text="Add"
+    android:layout_width="wrap_content"
+    android:id="@+id/ab1"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/me9"
+        android:background="@drawable/samplebutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <Button
+    android:text="Search"
+    android:layout_width="wrap_content"
+    android:id="@+id/sb2"
+    android:layout_height="wrap_content"
+        android:background="@drawable/samplebutton"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignBaseline="@+id/ab1"
+        android:layout_alignBottom="@+id/ab1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+    </ScrollView>
